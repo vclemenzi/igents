@@ -51,4 +51,4 @@ console.log(colors_1.default.yellow("Creating files..."));
 // Install all dependencies
 console.log(colors_1.default.yellow("Installing dependencies..."));
 (0, child_process_1.execSync)("pnpm install");
-console.log(colors_1.default.green("Project generated!"));
+console.log(colors_1.default.green("Project generated! Happy Hacking!"));
