@@ -68,4 +68,4 @@ writeFileSync("./src/index.ts", "");
 console.log(colors.yellow("Installing dependencies..."));
 execSync("pnpm install");
 
-console.log(colors.green("Project generated!"));
+console.log(colors.green("Project generated! Happy Hacking!"));
