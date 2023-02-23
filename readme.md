@@ -2,14 +2,6 @@
 
 igents is a simple command-line tool to generate a basic TypeScript app. The generator automatically sets up a basic TypeScript project, complete with a TypeScript compilation configuration file and an example file to get you started.
 
-## Installing the generator
-
-The generator can be installed using npm. Open your terminal and type the following command:
-
-```bash
-npm install -g igents
-```
-
 ## Using the generator
 
 To generate a new TypeScript project, open your terminal in the folder where you want to create your project and type the following command:
@@ -17,7 +9,6 @@ To generate a new TypeScript project, open your terminal in the folder where you
 ```bash
 igents
 ```
-
 
 This command will create a new project and automatically set up a basic TypeScript project inside it.
 
