@@ -2,7 +2,7 @@ import { execSync } from "child_process";
 import { writeFileSync, mkdirSync } from "fs";
 import gitignore from "./gitignore";
 import colors from "colors";
-
+import path from "path";
 console.log(colors.yellow("Generating project..."));
 
 // Add some dependencies
@@ -11,7 +11,7 @@ writeFileSync(
   "./package.json",
   JSON.stringify(
     {
-      name: "",
+      name: path.basename(path.dirname(__dirname)),
       version: "1.0.0",
       description: "",
       main: "index.js",
