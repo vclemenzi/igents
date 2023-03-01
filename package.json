@@ -1,7 +1,7 @@
 {
   "name": "igents",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate a new typescript project",
   "bin": {
     "igents": "./bin/index.js"
   },
