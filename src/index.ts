@@ -7,12 +7,11 @@ import path from "path";
 console.log(colors.yellow("Generating project..."));
 
 // Add some dependencies
-
 writeFileSync(
   "./package.json",
   JSON.stringify(
     {
-      name: path.basename(path.dirname(__dirname)),
+      name: process.cwd(),
       version: "1.0.0",
       description: "",
       main: "index.js",
