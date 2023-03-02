@@ -41,7 +41,7 @@ writeFileSync(
     {
       compilerOptions: {
         target: "es6",
-        module: "es6",
+        module: "CommonJS",
         lib: ["dom", "es6"],
         strict: true,
         esModuleInterop: true,
